@@ -1,4 +1,4 @@
-# google-auth-tutorial
+# google-auth-tutorial-react
 Quick google auth tutorial
 
 1. Install @react-oauth/google
