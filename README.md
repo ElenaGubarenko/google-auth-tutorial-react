@@ -2,11 +2,15 @@
 Quick google auth tutorial
 
 1. Install @react-oauth/google
-2. Auth component: 
+2. Auth component:
+3.
+<pre><code class="language-js">
 import React from "react";
 import { useGoogleLogin } from '@react-oauth/google';
 
 const Google = ({ }) => {
+  const { registerUser, logInUser } = useAuth();
+
   const googleButStyle = {
     backgroundColor: '#4267b2',
     display: 'flex',
@@ -40,4 +44,11 @@ const Google = ({ }) => {
   );
 };
 
-export default Google;
+export default Google; 
+</code>
+</pre>
+
+
+
+
+
