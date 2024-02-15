@@ -3,7 +3,7 @@ Quick google auth tutorial
 
 1. Install @react-oauth/google
 2. Auth component:
-3.
+3. Component:
 <pre><code class="language-js">
 import React from "react";
 import { useGoogleLogin } from '@react-oauth/google';
@@ -47,7 +47,18 @@ const Google = ({ }) => {
 export default Google; 
 </code>
 </pre>
-
+4. Don't forget:
+ <pre>
+ <code class="language-js">
+   import { GoogleOAuthProvider } from '@react-oauth/google';
+   ...
+   < GoogleOAuthProvider clientId="CLIENT_ID.apps.googleusercontent.com">
+     {children}
+   < /GoogleOAuthProvider>);
+</code>
+</pre>
+6. Go to `google console`
+7.  
 
 
 
