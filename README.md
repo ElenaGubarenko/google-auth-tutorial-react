@@ -3,7 +3,6 @@ Quick google auth tutorial
 
 1. Install @react-oauth/google
 2. Auth component:
-3. Component:
 <pre><code class="language-js">
 import React from "react";
 import { useGoogleLogin } from '@react-oauth/google';
@@ -47,7 +46,7 @@ const Google = ({ }) => {
 export default Google; 
 </code>
 </pre>
-4. Don't forget:
+3. Don't forget to wrap your App or parent component with GoogleOAuthProvider:
  <pre>
  <code class="language-js">
    import { GoogleOAuthProvider } from '@react-oauth/google';
@@ -57,12 +56,12 @@ export default Google;
    < /GoogleOAuthProvider>);
 </code>
 </pre>
-6. Go to `google console`
-7. Here you can create your client ID: 
+4. Go to `google console`
+5. Here you can create your client ID: 
  ![image](https://github.com/ElenaGubarenko/google-auth-tutorial-react/assets/61194378/ca4c6255-9658-41b1-bb58-d8f4b0229745)
-8. Register your site:
+6. Register your site:
  ![image](https://github.com/ElenaGubarenko/google-auth-tutorial-react/assets/61194378/c75fb793-520c-4283-a91c-85a7ad781f6d)
-9. Thats all! 🐱‍👤
+7. Thats all! 🐱‍👤
 
 
 
