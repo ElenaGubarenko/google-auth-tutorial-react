@@ -58,7 +58,11 @@ export default Google;
 </code>
 </pre>
 6. Go to `google console`
-7.  
+7. Here you can create your client ID: 
+ ![image](https://github.com/ElenaGubarenko/google-auth-tutorial-react/assets/61194378/ca4c6255-9658-41b1-bb58-d8f4b0229745)
+8. Register your site:
+ ![image](https://github.com/ElenaGubarenko/google-auth-tutorial-react/assets/61194378/c75fb793-520c-4283-a91c-85a7ad781f6d)
+9. Thats all! 🐱‍👤
 
 
 
